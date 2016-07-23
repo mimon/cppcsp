@@ -8,7 +8,7 @@ AM_CXXFLAGS += -Wcast-align -Wwrite-strings -Wconversion -Wsign-compare
 libcppcsp2_a_SOURCES = src/cppcsp.cpp src/kernel.cpp src/process.cpp src/atomic.cpp src/alt.cpp
 
 libcppcsp2_adir = $(includedir)/cppcsp
-libcppcsp2_a_HEADERS = src/process.h src/kernel.h src/channel_ends.h src/barrier.h src/cppcsp.h src/run.h src/mutex.h src/alt.h src/time.h 
+libcppcsp2_a_HEADERS = src/process.h src/kernel.h src/channel_ends.h src/barrier.h src/cppcsp.h src/run.h src/mutex.h src/alt.h src/csptime.h 
 libcppcsp2_a_HEADERS += src/atomic.h src/atomic_impl.h src/mobile.h src/channel.h src/channel_buffers.h src/buffered_channel.h src/channel_factory.h
 libcppcsp2_a_HEADERS += src/csprocess.h src/channel_base.h src/thread_local.h src/net_channels.h src/bucket.h
 nodist_libcppcsp2_a_HEADERS = cppcsp_config.h

@@ -17,7 +17,7 @@
 *	Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-/** @file time.h
+/** @file csptime.h
 *   @brief The header file for the Time classes and functions
 */
 
