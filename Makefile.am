@@ -1,5 +1,5 @@
 ## Process this file with automake to produce Makefile.in
-
+AX_CXX_COMPILE_STDCXX_11(ext, optional)
 AM_CXXFLAGS = -ggdb3 -Wall -O2 -D_REENTRANT -I. -Woverloaded-virtual 
 AM_CXXFLAGS += -Wctor-dtor-privacy -Wsign-promo -Wextra -Wfloat-equal -Wpointer-arith 
 AM_CXXFLAGS += -Wcast-align -Wwrite-strings -Wconversion -Wsign-compare 
