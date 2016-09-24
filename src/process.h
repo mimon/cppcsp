@@ -95,7 +95,7 @@ namespace csp
 		class _AtomicProcessQueue;
 		
 #ifdef CPPCSP_CONTEXT
-		typedef ucontext Context;
+		typedef ucontext_t Context;
 #endif
 #ifdef CPPCSP_FIBERS
 		typedef void* Context;
